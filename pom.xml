@@ -17,6 +17,14 @@
 		<java.version>17</java.version>
 		<spring-cloud.version>2022.0.2</spring-cloud.version>
 	</properties>
+
+	<scm>
+		<url>https://github.com/Mikaulin/currency-conversion-service</url> <!-- URL HTTP de clone do projeto -->
+		<connection>scm:git:https://github.com/Mikaulin/currency-conversion-service</connection> <!-- URL HTTP de clone do projeto -->
+		<developerConnection>scm:git:https://github.com/Mikaulin/currency-conversion-service</developerConnection> <!-- URL HTTP de clone do projeto -->
+		<tag>@{project.version}</tag>
+	</scm>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
