@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>currency-conversion-service</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>currency-conversion-service</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -21,7 +21,7 @@
 		<url>https://github.com/Mikaulin/currency-conversion-service</url> <!-- URL HTTP de clone do projeto -->
 		<connection>scm:git:https://github.com/Mikaulin/currency-conversion-service.git</connection> <!-- URL HTTP de clone do projeto -->
 		<developerConnection>scm:git:https://github.com/Mikaulin/currency-conversion-service.git</developerConnection> <!-- URL HTTP de clone do projeto -->
-		<tag>0.0.1</tag>
+		<tag>@{project.version}</tag>
 	</scm>
 
 	<dependencies>
